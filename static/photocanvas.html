@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<!-- saved from url=(0159)https://user.qzone.qq.com/proxy/domain/qzs.qq.com/qzone/photo/v7/page/photo.html?init=photo.v7/module/albumList/index&navBar=1&g_iframeUser=1&g_iframedescend=1 -->
+<html lang="zh-cn" class="os_win7"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title> </title><link charset="utf-8" rel="stylesheet" href="./app-2.css"><link charset="utf-8" rel="stylesheet" href="./photo.css"><!--<base href="//qzs.qq.com/">--><base href=".">
+<script type="text/javascript">
+document.domain = location.hostname;
+
+//interface里面这个变量
+window.g_domain = document.domain;
+window._s_ = new Date();
+
+//判断是否在iframe里面
+if(window.frameElement){
+	window.new_protocol = top.g_cdn_proto;
+}
+
+window.new_protocol = window.new_protocol || location.protocol;
+</script>
+
+<script type="text/javascript">
+(function(){
+	var version = {},
+		f		= frameElement || {};
+	
+	version.v7		= "@qzone/photo/v7/js#20190712#".split('#')[1];
+	version.zone	= "@qzone/photo/zone/script?deep=1#20131114203912#".split('#')[1];
+	version.zoneNew = "@qzone/photo/zone/new/script?deep=1#20131114221918#".split('#')[1];
+	version.css		= "@qzone_v6?deep=1&type=css#20131114113131#".split('#')[1];
+
+	if(top.g_photoVersionMap){
+		version.v7 		= Math.max(version.v7,		top.g_photoVersionMap.v7);
+		version.zone 	= Math.max(version.zone,	top.g_photoVersionMap.zone);
+		version.zoneNew = Math.max(version.zoneNew,	top.g_photoVersionMap.zoneNew);
+		version.css 	= Math.max(version.css,		top.g_photoVersionMap.css);
+	}
+	
+	top.g_photoVersion		= f.g_photoVersion		= Math.max(version.zone,version.zoneNew);
+	top.g_photoVersionV7	= f.g_photoVersionV7	= version.v7;
+	top.g_photoVersionMap	= f.g_photoVersionMap	= version;
+})();
+</script>
+
+<script type="text/javascript">
+var PSY = {
+		loadTimes :{startLoad:+new Date()},
+		_domains:{},
+		_photoVersion: top.g_photoVersion || frameElement.g_photoVersion,
+		_photoVersionV7: top.g_photoVersionV7 || frameElement.g_photoVersionV7,
+		_photoVersionMap: top.g_photoVersionMap || frameElement.g_photoVersionMap
+	};
+if(top.QZONE){
+	PSY._domains.imgcache = top.QZONE.FP._t.siDomain;
+	PSY._domains.main = 'user.qzone.qq.com';
+	PSY._domains.qzfl = top.QZONE.FP._t.imgcacheDomain;
+	PSY._qzflVersion = top.QZONE.FP._t.g_V.qz || '_v8_2.1.45';
+	PSY._interfaceVersion = top.QZONE.FP._t.g_V.ci || '_20131225';
+	PSY._requestVersion = top.QZONE.FP._t.g_V.req || "0.0.9.4";
+	window.imgcacheDomain = PSY._domains.qzfl;
+	window.siDomain = PSY._domains.imgcache;
+	window.qlogoDomain = 'store.qq.com';
+}else{
+	PSY._domains.imgcache = 'qzonestyle.gtimg.cn';
+	PSY._domains.main = 'user.qzone.qq.com';
+	PSY._domains.qzfl = 'qzs.qq.com';
+	PSY._qzflVersion = '_v8_2.1.45';
+	PSY._interfaceVersion = '_20131113';
+	PSY._requestVersion = "0.0.9.4";
+	window.imgcacheDomain = PSY._domains.qzfl;
+	window.siDomain = PSY._domains.imgcache;
+	window.qlogoDomain = 'store.qq.com';
+}
+if(frameElement){
+	frameElement.setAttribute('allowtransparency','yes');
+}
+
+</script>
+<!--[if lt IE 9]>
+	<script>PSY._jQueryVersion = '1.10.2';</script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+    <script>PSY._jQueryVersion = '2.0.3';</script>
+<!--<![endif]-->
+
+
+<style type="text/css">
+	.j-switch-to-h5-upload .j-album-new-upload-btn {
+		display: block !important;
+	}
+
+	.j-switch-to-h5-upload .j-album-new-upload-btn-inline {
+		display: inline-block !important;
+	}
+
+	.j-switch-to-h5-upload .j-album-old-photo-upload-btn, .j-switch-to-h5-upload .j-album-old-video-upload-btn {
+		display: none !important;
+	}
+</style>
+
+<script type="text/javascript">PSY.loadTimes.bodyStart = +new Date();</script>
+</head>
+<body class="os-mac mod-v8" style="">
+	<div id="j-body" class="j-switch-to-h5-upload" style=""><div class="bg0 mod-wrap" id="js-container" style="padding: 0px 51px;">
+	<div class="mod-wrap-inner">
+		<div class="mod-wrap-hd" id="js-nav-container">
+			<div class="bor mod-tab">
+				<div class="mod-tab-list">
+					<ul>						<li data-mod="albumlist" class="js-nav-tab"><a href="javascript:;" class="c-tx2 js-select selected"><span class="item-wrap bor-tx">相册<span class="icon-m icon-dot js-nav-tab-dot" style="display: none;"></span><span class="item-num js-nav-tab-num"></span></span></a></li>						<li data-mod="photo" class="js-nav-tab"><a href="javascript:;" class="c-tx2 js-select"><span class="item-wrap bor-tx">照片<span class="icon-m icon-dot js-nav-tab-dot" style="display: none;"></span><span class="item-num js-nav-tab-num"></span></span></a></li>						<li data-mod="facemark" class="js-nav-tab" style="display:none"><a href="javascript:;" class="c-tx2 js-select"><span class="item-wrap bor-tx">面孔墙<span class="icon-m icon-dot js-nav-tab-dot" style="display: none;"></span><span class="item-num js-nav-tab-num"></span></span></a></li>						<li data-mod="video" class="js-nav-tab"><a href="javascript:;" class="c-tx2 js-select"><span class="item-wrap bor-tx">视频<span class="icon-m icon-dot js-nav-tab-dot" style="display: none;"></span><span class="item-num js-nav-tab-num"></span></span></a></li>					</ul>
+				</div>
+				<div class="mod-tab-other">
+					<div class="photo-infos">
+						<div class="photo-info-item">
+							<a href="javascript:;" class="js-nav-more c-tx3" title="应用"><i class="icon-m icon-nav-m"></i>应用</a>
+							<div class="bg3 mod-hover-droplist js-nav-more-list" style="display:none">
+								<ul id="js-nav-more-list-ul" style="display:none"><style>
+.mod-hover-droplist ul li .kadang_1 {
+    background-image: url('//qzonestyle.gtimg.cn/aoi/sola/20141029181446_UQQPNHvni0.png');
+}
+</style>	</ul>
+								<span class="bor-bg3 mod-arr mod-arr-t"></span>
+							</div>
+						</div><div class="photo-info-item" style="display: none;">
+                            <a href="javascript:;" class="js-nav-score c-tx3" title="打分" data-hottag="dafen"><i class="icon-m icon-score-m"></i>打分</a>
+                        </div>
+					</div>
+				</div>			</div>
+		</div>
+		<div class="mod-wrap-bd" id="js-module-container" style="min-height:600px;"><style>
+.js-album-transition{
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.item-drop-pre{
+	margin-left: -20px;
+	z-index: 2;
+}
+.item-drop-next{
+	margin-left: 20px;
+	z-index: 2;
+}
+.download-tips{
+	display:none;
+}
+</style>
+<div class="page-album">
+	<div class="mod-photo-tool" id="js-album-opbar-container">
+	</div>
+	<div id="js-album-container" style="position:relative">
+<div id="js-album-list-noraml" class="album-list-wrap">
+	<div class="album-list js-album-list">
+		<div class="album-list-bd">
+			<ul class="js-album-list-ul" style="height:201px">					<li>
+	<div class="bg bor3 mod-album js-album-item js-album-transition" data-allowaccess="1" data-anonymity="0" data-bitmap="11000000" data-classid="107" data-comment="1" data-createtime="1325790280" data-desc="" data-handset="2" data-id="V10wBQbh197yXX" data-lastuploadtime="1325985507" data-modifytime="1527055602" data-name="贴图相册" data-order="0" data-pre="http://b97.photo.store.qq.com/psb?/V10wBQbh197yXX/Mgph5KpO80FpUbPQoAssXI4PSqrNtKoDDhIvTaQySsM!/a/YZin1Tl7DQAAYpW22DmBDQAA" data-priv="1" data-pypriv="4" data-total="2" data-viewtype="0" data-autoxss="true" aorder="0" style="width:159px;top:0px;left:0px;">
+		<div class="album-bd js-album-item-imgBox" style="height:152px;">
+			<a href="javascript:;" class="album-cover js-album-cover" data-hottag="list.albumcover">
+				<img class="js-cover-img" src="./psb(11)" onload="this.onload=null;preLoadNoScale(this,&#39;http://b97.photo.store.qq.com/psb?/V10wBQbh197yXX/Mgph5KpO80FpUbPQoAssXI4PSqrNtKoDDhIvTaQySsM!/m/YZin1Tl7DQAAYpW22DmBDQAA&#39;,159,152);" style="width: 159px; height: 249.542px; margin-top: -25px; margin-left: 0px;">
+				<span class="pic-num-wrap"><span class="pic-num">2</span></span>			</a>			<div class="js-mod-photo-op mod-photo-op">
+				<span class="photo-op-tip js-album-op-tip" style="display:none" title="编辑或删除"><i class="icon-m icon-expansion-m"></i></span>
+				<div class="photo-op-list js-album-op-list" style="display:none">
+					<ul>
+						<li>
+							<a href="javascript:;" class="js-album-modify" data-hottag="list.edit_bianjixiangce"><i class="icon-m icon-edit-m"></i>编辑</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="js-album-setLimit" data-hottag="list.edit_setpriv"><i class="icon-m icon-limitop-m"></i>权限设置</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="js-album-makeCover" data-hottag="list.zzfm"><i class="icon-m icon-cover-m"></i>制作封面</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="js-album-delete" data-hottag="list.edit_deletalbum"><i class="icon-m icon-rubbish-m"></i>删除</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="album-ft">
+			<div class="album-desc ">				<div class="album-tit"><a href="javascript:;" class="c-tx2 js-album-desc-a" title="贴图相册" data-hottag="list.albumtitle">贴图相册</a></div>
+			</div>
+		</div><div class="download-tips">
+	<span class="download-count-bg"></span>
+	<span class="download-photo-bg"></span>
+	<p class="download-count">排队中</p>
+	<span class="download-speed"></span>
+</div>	</div>
+</li>			</ul>
+		</div>
+	</div>
+</div>	</div>
+	<div class="mod-photo-propaganda" style="padding-right:0px">
+		<div class="bg3 recent-visitor" style="position: relative; height: auto;">
+			<h4><a href="http://user.qzone.qq.com/1745313030/friends/visitor/" target="_blank" class="c-tx2">最近访客</a></h4>
+			<div class="visitor-num" id="js-album-visitor-container" style="height: auto;"><a href="http://user.qzone.qq.com/1745313030/friends/visitor/" target="_blank" class="sum-num">访客总数：184</a><a href="javascript:void(0)" data-hottag="foot.block-visitor" id="js-block-visitor" style="display:none" class="block-num">被挡访客：<span id="js-block-visitor-count">0</span><span id="js-block-visitor-new" style="display:none;" class="icon-m icon-dot"></span></a>
+                
+            </div>
+			<div class="mod-visitor">
+				<ul id="js-album-visitor-list" style="max-height: 185px; height: auto;"><li class="user-item"><div class="qz_del_ul w90" data-uin="410092514"><a class="c_tx3 index top_del bg6_hover" href="javascript:;">×</a><div class="qz_del_ul_option bor2 none"><ul><li class="bg"><a class="bg6_hover j-hide-record" data-click="hide_visitor_record" href="javascript:;">隐藏他的访问</a></li><li class="bg"><a class="bg6_hover j-del-record" href="javascript:;">删除本次记录</a></li></ul></div><div class="qz_del_ul_option bor2 none"><ul><li class="bg"><a class="bg6_hover visible_setting" data-action="1" href="javascript:;" data-click="visitor_deleteforever">对其隐身访问</a></li><li class="bg"><a class="bg6_hover j-del-record" href="javascript:;">删除本次记录</a></li></ul></div></div><span class="hide-user-tag none j-hide-from-flag"><i class="ui-icon hide-user-icon" title="该好友来访记录仅你可见"></i><b class="floor"></b></span><a href="http://user.qzone.qq.com/410092514" class="user-avatar q_namecard" data-from="" data-index="1" link="nameCard_410092514" target="_blank" data-click="visitor_head"><img src="./100" alt="無生夢的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">無生夢</span></div> <span class="date">4月28日</span></li><li class="user-item"><a href="http://user.qzone.qq.com/289954674" class="user-avatar q_namecard" data-from="" data-index="2" link="nameCard_289954674" target="_blank" data-click="visitor_head"><img src="./100(1)" alt="念佛珠的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">念佛珠</span></div> <span class="date">4月21日</span></li><li class="user-item"><a href="http://user.qzone.qq.com/334945015" class="user-avatar q_namecard" data-from="" data-index="3" link="nameCard_334945015" target="_blank" data-click="visitor_head"><img src="./100(2)" alt="誠智Jacky的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">誠智Jacky</span></div> <span class="date">4月6日</span></li><li class="user-item"><a href="http://user.qzone.qq.com/623761501" class="user-avatar q_namecard" data-from="" data-index="4" link="nameCard_623761501" target="_blank" data-click="visitor_head"><img src="./100(3)" alt="C623桐君的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C623桐君</span></div> <span class="date">3月27日</span></li><li class="user-item"><a href="http://user.qzone.qq.com/898840789" class="user-avatar q_namecard" data-from="" data-index="5" link="nameCard_898840789" target="_blank" data-click="visitor_head"><img src="./100(4)" alt="c12洛卿的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">c12洛卿</span></div> <span class="date">2020年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/783676629" class="user-avatar q_namecard" data-from="" data-index="6" link="nameCard_783676629" target="_blank" data-click="visitor_head"><img src="./100(5)" alt="心戒的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">心戒</span></div> <span class="date">2020年10月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/2994635061" class="user-avatar q_namecard" data-from="" data-index="7" link="nameCard_2994635061" target="_blank" data-click="visitor_head"><img src="./100(6)" alt="C411印和的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C411印和</span></div> <span class="date">2020年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/719119880" class="user-avatar q_namecard" data-from="" data-index="8" link="nameCard_719119880" target="_blank" data-click="visitor_head"><img src="./100(7)" alt="C107福慧的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C107福慧</span></div> <span class="date">2020年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/894236954" class="user-avatar q_namecard" data-from="" data-index="9" link="nameCard_894236954" target="_blank" data-click="visitor_head"><img src="./100(8)" alt="白贝儿的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">白贝儿</span></div> <span class="date">2020年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/23711862" class="user-avatar q_namecard" data-from="" data-index="10" link="nameCard_23711862" target="_blank" data-click="visitor_head"><img src="./100(9)" alt="C395妙相的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C395妙相</span></div> <span class="date">2020年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/452302225" class="user-avatar q_namecard" data-from="" data-index="11" link="nameCard_452302225" target="_blank" data-click="visitor_head"><img src="./100(10)" alt="C443智瑜(只往西方)的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C443智瑜(只往西方)</span></div> <span class="date">2020年4月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/78177989" class="user-avatar q_namecard" data-from="" data-index="12" link="nameCard_78177989" target="_blank" data-click="visitor_head"><img src="./100(11)" alt="C553善寂的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C553善寂</span></div> <span class="date">2020年3月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/909396304" class="user-avatar q_namecard" data-from="" data-index="13" link="nameCard_909396304" target="_blank" data-click="visitor_head"><img src="./100(12)" alt="5-149-惜-西方耶的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">5-149-惜-西方耶</span></div> <span class="date">2020年2月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/502206728" class="user-avatar q_namecard" data-from="" data-index="14" link="nameCard_502206728" target="_blank" data-click="visitor_head"><img src="./100(13)" alt="修心培德的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">修心培德</span></div> <span class="date">2020年2月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/3328451282" class="user-avatar q_namecard" data-from="" data-index="15" link="nameCard_3328451282" target="_blank" data-click="visitor_head"><img src="./100(14)" alt="寶月的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">寶月</span></div> <span class="date">2019年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/25822107" class="user-avatar q_namecard" data-from="" data-index="16" link="nameCard_25822107" target="_blank" data-click="visitor_head"><img src="./100(15)" alt="Q431媛崽的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">Q431媛崽</span></div> <span class="date">2019年11月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1309102751" class="user-avatar q_namecard" data-from="" data-index="17" link="nameCard_1309102751" target="_blank" data-click="visitor_head"><img src="./100(16)" alt="S502惜缘的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">S502惜缘</span></div> <span class="date">2019年10月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/469589166" class="user-avatar q_namecard" data-from="" data-index="18" link="nameCard_469589166" target="_blank" data-click="visitor_head"><img src="./100(17)" alt="云水的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">云水</span></div> <span class="date">2019年10月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/253796488" class="user-avatar q_namecard" data-from="" data-index="19" link="nameCard_253796488" target="_blank" data-click="visitor_head"><img src="./100(18)" alt="是心做佛的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">是心做佛</span></div> <span class="date">2019年8月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/22374770" class="user-avatar q_namecard" data-from="" data-index="20" link="nameCard_22374770" target="_blank" data-click="visitor_head"><img src="./100(19)" alt="明蕾的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">明蕾</span></div> <span class="date">2018年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/757718387" class="user-avatar q_namecard" data-from="" data-index="21" link="nameCard_757718387" target="_blank" data-click="visitor_head"><img src="./100(20)" alt="Jason  Lin的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">Jason  Lin</span></div> <span class="date">2018年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/840427543" class="user-avatar q_namecard" data-from="" data-index="22" link="nameCard_840427543" target="_blank" data-click="visitor_head"><img src="./100(21)" alt="C392慧道的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C392慧道</span></div> <span class="date">2018年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/316480474" class="user-avatar q_namecard" data-from="" data-index="23" link="nameCard_316480474" target="_blank" data-click="visitor_head"><img src="./100(22)" alt="果楠的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">果楠</span></div> <span class="date">2018年3月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/369148739" class="user-avatar q_namecard" data-from="" data-index="24" link="nameCard_369148739" target="_blank" data-click="visitor_head"><img src="./100(23)" alt="Look in many aspects的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">Look in many aspects</span></div> <span class="date">2017年11月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1665366576" class="user-avatar q_namecard" data-from="" data-index="25" link="nameCard_1665366576" target="_blank" data-click="visitor_head"><img src="./100(24)" alt="C124娃娃的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C124娃娃</span></div> <span class="date">2017年7月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1343276035" class="user-avatar q_namecard" data-from="" data-index="26" link="nameCard_1343276035" target="_blank" data-click="visitor_head"><img src="./100(25)" alt="11-94 常精进的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">11-94 常精进</span></div> <span class="date">2017年5月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/3316195920" class="user-avatar q_namecard" data-from="" data-index="27" link="nameCard_3316195920" target="_blank" data-click="visitor_head"><img src="./100(26)" alt="布衣阿和的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">布衣阿和</span></div> <span class="date">2017年4月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/8303477" class="user-avatar q_namecard" data-from="" data-index="28" link="nameCard_8303477" target="_blank" data-click="visitor_head"><img src="./100(27)" alt="H_PENG的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">H_PENG</span></div> <span class="date">2017年2月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1950514160" class="user-avatar q_namecard" data-from="" data-index="29" link="nameCard_1950514160" target="_blank" data-click="visitor_head"><img src="./100(28)" alt="梵明的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">梵明</span></div> <span class="date">2016年10月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/574762604" class="user-avatar q_namecard" data-from="" data-index="30" link="nameCard_574762604" target="_blank" data-click="visitor_head"><img src="./100(29)" alt="yicheng的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">yicheng</span></div> <span class="date">2016年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/371230887" class="user-avatar q_namecard" data-from="" data-index="31" link="nameCard_371230887" target="_blank" data-click="visitor_head"><img src="./100(30)" alt="妙吉祥祥的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">妙吉祥祥</span></div> <span class="date">2016年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1480025965" class="user-avatar q_namecard" data-from="" data-index="32" link="nameCard_1480025965" target="_blank" data-click="visitor_head"><img src="./100(31)" alt="C663慧缘的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C663慧缘</span></div> <span class="date">2016年8月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/705062540" class="user-avatar q_namecard" data-from="" data-index="33" link="nameCard_705062540" target="_blank" data-click="visitor_head"><img src="./100(32)" alt="[em]e327800[/em]的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">[em]e327800[/em]</span></div> <span class="date">2016年7月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/842802775" class="user-avatar q_namecard" data-from="" data-index="34" link="nameCard_842802775" target="_blank" data-click="visitor_head"><img src="./100(33)" alt="藝的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">藝</span></div> <span class="date">2016年5月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/465314069" class="user-avatar q_namecard" data-from="" data-index="35" link="nameCard_465314069" target="_blank" data-click="visitor_head"><img src="./100(34)" alt="1-07-沁菡的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">1-07-沁菡</span></div> <span class="date">2016年2月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/33579680" class="user-avatar q_namecard" data-from="" data-index="36" link="nameCard_33579680" target="_blank" data-click="visitor_head"><img src="./100(35)" alt="智娴（琥珀 ）Isabelle的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">智娴（琥珀 ）Isabelle</span></div> <span class="date">2015年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/346899090" class="user-avatar q_namecard" data-from="" data-index="37" link="nameCard_346899090" target="_blank" data-click="visitor_head"><img src="./100(36)" alt="明了的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">明了</span></div> <span class="date">2015年11月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/120823825" class="user-avatar q_namecard" data-from="" data-index="38" link="nameCard_120823825" target="_blank" data-click="visitor_head"><img src="./100(37)" alt="C52楞嚴戒子的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C52楞嚴戒子</span></div> <span class="date">2015年10月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/826674535" class="user-avatar q_namecard" data-from="" data-index="39" link="nameCard_826674535" target="_blank" data-click="visitor_head"><img src="./100(38)" alt="C148逸凡的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C148逸凡</span></div> <span class="date">2015年8月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/50910579" class="user-avatar q_namecard" data-from="" data-index="40" link="nameCard_50910579" target="_blank" data-click="visitor_head"><img src="./100(39)" alt="如空-常观已心的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">如空-常观已心</span></div> <span class="date">2015年8月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1016806226" class="user-avatar q_namecard" data-from="" data-index="41" link="nameCard_1016806226" target="_blank" data-click="visitor_head"><img src="./100(40)" alt="澄明的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">澄明</span></div> <span class="date">2015年7月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/941700350" class="user-avatar q_namecard" data-from="" data-index="42" link="nameCard_941700350" target="_blank" data-click="visitor_head"><img src="./100(41)" alt="妙量的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">妙量</span></div> <span class="date">2015年7月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1312002125" class="user-avatar q_namecard" data-from="" data-index="43" link="nameCard_1312002125" target="_blank" data-click="visitor_head"><img src="./100(42)" alt="旺財的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">旺財</span></div> <span class="date">2015年6月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/292646698" class="user-avatar q_namecard" data-from="" data-index="44" link="nameCard_292646698" target="_blank" data-click="visitor_head"><img src="./100(43)" alt="C220梵荘的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C220梵荘</span></div> <span class="date">2015年6月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/281370014" class="user-avatar q_namecard" data-from="" data-index="45" link="nameCard_281370014" target="_blank" data-click="visitor_head"><img src="./100(44)" alt="江河的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">江河</span></div> <span class="date">2015年5月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/121711951" class="user-avatar q_namecard" data-from="" data-index="46" link="nameCard_121711951" target="_blank" data-click="visitor_head"><img src="./100(45)" alt="慧通的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">慧通</span></div> <span class="date">2015年5月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/565757893" class="user-avatar q_namecard" data-from="" data-index="47" link="nameCard_565757893" target="_blank" data-click="visitor_head"><img src="./100(46)" alt="мудрость[em]e328293[/em]的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">мудрость[em]e328293[/em]</span></div> <span class="date">2015年5月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1017060969" class="user-avatar q_namecard" data-from="" data-index="48" link="nameCard_1017060969" target="_blank" data-click="visitor_head"><img src="./100(47)" alt="sun的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">sun</span></div> <span class="date">2015年4月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1245102186" class="user-avatar q_namecard" data-from="" data-index="49" link="nameCard_1245102186" target="_blank" data-click="visitor_head"><img src="./100(48)" alt="禅韵的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">禅韵</span></div> <span class="date">2015年3月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1798724210" class="user-avatar q_namecard" data-from="" data-index="50" link="nameCard_1798724210" target="_blank" data-click="visitor_head"><img src="./100(49)" alt="前程似锦的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">前程似锦</span></div> <span class="date">2015年3月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1469479552" class="user-avatar q_namecard" data-from="" data-index="51" link="nameCard_1469479552" target="_blank" data-click="visitor_head"><img src="./100(50)" alt="忏悔的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">忏悔</span></div> <span class="date">2015年2月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/2094808023" class="user-avatar q_namecard" data-from="" data-index="52" link="nameCard_2094808023" target="_blank" data-click="visitor_head"><img src="./100(51)" alt="Rā[em]e328123[/em]潛水不聊天的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">Rā[em]e328123[/em]潛水不聊天</span></div> <span class="date">2014年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/83637130" class="user-avatar q_namecard" data-from="" data-index="53" link="nameCard_83637130" target="_blank" data-click="visitor_head"><img src="./100(52)" alt="罗茜[em]e327872[/em]的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">罗茜[em]e327872[/em]</span></div> <span class="date">2014年10月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1171090770" class="user-avatar q_namecard" data-from="" data-index="54" link="nameCard_1171090770" target="_blank" data-click="visitor_head"><img src="./100(53)" alt="﹏ 奔跑的大月亮、的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">﹏ 奔跑的大月亮、</span></div> <span class="date">2014年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/645268591" class="user-avatar q_namecard" data-from="" data-index="55" link="nameCard_645268591" target="_blank" data-click="visitor_head"><img src="./100(54)" alt="半泽直树的樱桃花的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">半泽直树的樱桃花</span></div> <span class="date">2014年7月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/2640295931" class="user-avatar q_namecard" data-from="" data-index="56" link="nameCard_2640295931" target="_blank" data-click="visitor_head"><img src="./100(55)" alt="光明的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">光明</span></div> <span class="date">2014年7月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/940663523" class="user-avatar q_namecard" data-from="" data-index="57" link="nameCard_940663523" target="_blank" data-click="visitor_head"><img src="./100(56)" alt="Migesisiru的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">Migesisiru</span></div> <span class="date">2014年5月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/707218029" class="user-avatar q_namecard" data-from="" data-index="58" link="nameCard_707218029" target="_blank" data-click="visitor_head"><img src="./100(57)" alt="華夏龍喜的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">華夏龍喜</span></div> <span class="date">2014年4月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/824754572" class="user-avatar q_namecard" data-from="" data-index="59" link="nameCard_824754572" target="_blank" data-click="visitor_head"><img src="./100(58)" alt="空白的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">空白</span></div> <span class="date">2014年4月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/274672762" class="user-avatar q_namecard" data-from="" data-index="60" link="nameCard_274672762" target="_blank" data-click="visitor_head"><img src="./100(59)" alt="曼荼罗的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">曼荼罗</span></div> <span class="date">2014年4月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/2576518683" class="user-avatar q_namecard" data-from="" data-index="61" link="nameCard_2576518683" target="_blank" data-click="visitor_head"><img src="./100(60)" alt="慈柔的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">慈柔</span></div> <span class="date">2014年4月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/51405124" class="user-avatar q_namecard" data-from="" data-index="62" link="nameCard_51405124" target="_blank" data-click="visitor_head"><img src="./100(61)" alt="禾的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">禾</span></div> <span class="date">2014年3月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1197610667" class="user-avatar q_namecard" data-from="" data-index="63" link="nameCard_1197610667" target="_blank" data-click="visitor_head"><img src="./100(62)" alt="初晨的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">初晨</span></div> <span class="date">2014年2月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/350460851" class="user-avatar q_namecard" data-from="" data-index="64" link="nameCard_350460851" target="_blank" data-click="visitor_head"><img src="./100(63)" alt="林的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">林</span></div> <span class="date">2014年1月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/274120272" class="user-avatar q_namecard" data-from="" data-index="65" link="nameCard_274120272" target="_blank" data-click="visitor_head"><img src="./100(64)" alt="C241妙真觉的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C241妙真觉</span></div> <span class="date">2014年1月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/552474699" class="user-avatar q_namecard" data-from="" data-index="66" link="nameCard_552474699" target="_blank" data-click="visitor_head"><img src="./100(65)" alt="此号废弃的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">此号废弃</span></div> <span class="date">2013年12月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/957959813" class="user-avatar q_namecard" data-from="" data-index="67" link="nameCard_957959813" target="_blank" data-click="visitor_head"><img src="./100(66)" alt="正心的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">正心</span></div> <span class="date">2013年10月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/1048665141" class="user-avatar q_namecard" data-from="" data-index="68" link="nameCard_1048665141" target="_blank" data-click="visitor_head"><img src="./100(67)" alt="C257芬陀利华的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">C257芬陀利华</span></div> <span class="date">2013年9月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/309754549" class="user-avatar q_namecard" data-from="" data-index="69" link="nameCard_309754549" target="_blank" data-click="visitor_head"><img src="./100(68)" alt="Krod、的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">Krod、</span></div> <span class="date">2013年7月</span></li><li class="user-item"><a href="http://user.qzone.qq.com/12705702" class="user-avatar q_namecard" data-from="" data-index="70" link="nameCard_12705702" target="_blank" data-click="visitor_head"><img src="./100(69)" alt="     雲   川.的头像"></a><div class="user-name-bg"><span class="user-name textoverflow user-name-full ">     雲   川.</span></div> <span class="date">2013年5月</span></li></ul>
+			</div>
+		</div>
+		<div class="mod-ad" id="js-ad-container" style="display:none">
+			<div class="ad-inform ad-inform-full" id="js-ad-inform">
+				<div class="bg3 ad-inform-cont">
+					<div class="ad-lists" id="js-ad-lists">
+						<ul style="margin-left:0;">
+							<li>
+								<div class="inform-infos">								
+									<a href="javascript:void(0);" data-href="http://pay.qq.com/ipay/index.shtml?n=3&amp;c=xxjzghh,xxjzgw&amp;aid=toucanl.zsite&amp;ch=qdqb,kj" class="js-a" target="_blank" data-hottag="temp.huangzuan.rongliang"><span class="pri-capacity"></span></a>
+									<div class="inform-info-cont">
+										<p class="inform-tit">超大容量</p>
+										<p class="c-tx3">送30G空间<span>黄钻最高1T</span></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="inform-infos">								
+									<a href="javascript:void(0);" data-href="http://user.qzone.qq.com/410092514/photo/upload" class="js-a" target="_blank" data-hottag="temp.huangzuan.beifen"><span class="pri-backup"></span></a>
+									<div class="inform-info-cont">
+										<p class="inform-tit">四重备份</p>
+										<p class="c-tx3">安全保护<span>您的点滴回忆</span></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="inform-infos">								
+									<a href="javascript:void(0);" data-href="http://app.photo.qq.com/cgi-bin/app/cgi_redict_kadang?from=hd-hzsd-111130" class="js-a" target="_blank" data-hottag="temp.huangzuan.print"><span class="pri-gift"></span></a>							
+									<div class="inform-info-cont">
+										<p class="inform-tit">照片礼物</p>
+										<p class="c-tx3">黄钻用户<span>最低7折</span></p>
+									</div>								
+								</div>
+							</li>
+							<li>
+								<div class="inform-infos">		
+									<a href="javascript:void(0);" data-href="http://user.qzone.qq.com/410092514/qzvideo" class="js-a" target="_blank" data-hottag="temp.huangzuan.video"><span class="pri-video"></span></a>
+									<div class="inform-info-cont">
+										<p class="inform-tit">视频存储</p>
+										<p class="c-tx3">支持超大<span>100G储存容量</span></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="inform-infos ad-wrap">		
+									<a href="javascript:void(0);" data-href="http://qzs.qq.com/qzone/qzact/act/year2013two-pc/index.html" class="js-a" target="_blank" data-hottag="temp.huangzuan.ad">
+										<img src="./vip.jpg">
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="ad-page" id="js-ad-op">
+						<ul>
+							<li><a href="javascript:void(0);" class="bg4" value="0">1</a></li>
+							<li><a href="javascript:void(0);" class="c-tx3" value="1">2</a></li>
+							<li><a href="javascript:void(0);" class="c-tx3" value="2">3</a></li>
+							<li><a href="javascript:void(0);" class="c-tx3" value="3">4</a></li>
+							<li><a href="javascript:void(0);" class="c-tx3" value="4">5</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+	</div>
+</div>
+<div class="photo-list-pagenav">
+	<!-- style内的样式，需要前台去计算高/top值，fixed的时候 -->
+	<div id="toPrePage" class="bor2 bg-bor2 list-pagenav list-pagenav" style="display:none;left:0px;top:262px;">
+		<p class="list-pagenav-before"><span>拖到上一页</span><i class="icon-l icon-page-l"></i></p>
+	</div>
+	<div id="toNextPage" class="bor2 bg-bor2 list-pagenav" style="display:none;right:0px;top:262px;">
+		<p class="list-pagenav-next"><span>拖到下一页</span><i class="icon-l icon-page-l"></i>
+	</p></div>
+</div></div>
+
+<script type="text/javascript">PSY.loadTimes.bodyEnd = +new Date();</script>
+<script type="text/javascript">
+setTimeout(function(){
+	var p = document.getElementById('j-body-loading');
+	if(p){
+		p.style.display = '';
+	}
+},1000);
+</script>
+<script type="text/javascript">
+	if((location.search + location.hash || '').indexOf('useqzfl')!==-1){
+		PSY._useqzfl = 1;
+		document.write('<script type="text/javascript" src="'+ new_protocol + '//'+PSY._domains.imgcache+'/ac/qzone/qzfl/qzfl'+PSY._qzflVersion+'.js"\/><\/script>');
+	}
+	if((location.search + location.hash || '').indexOf('useinterface')!==-1){
+		PSY._useinterface = 1;
+	}
+</script>
+<script type="text/javascript">
+document.write('<script type="text/javascript" src="' + new_protocol + '//'+ PSY._domains.imgcache +'/ac/lib/seajs/sea-2.1.1.js" \/><\/script>');
+</script><script type="text/javascript" src="./sea-2.1.1.js"></script>
+<script type="text/javascript">
+	if(PSY._useinterface){
+		document.write('<script type="text/javascript" src="'+ new_protocol + '//'+PSY._domains.imgcache+'/qzone/v8/engine/plugin-combo.js"\/><\/script>');
+		document.write('<script type="text/javascript" src="'+ new_protocol + '//'+PSY._domains.imgcache+'/c/=/qzone/v8/engine/migrate-plugin.js,/qzone/v8/engine/console-plus/console-plus.js,/qzone/v8/engine/request/request_'+PSY._requestVersion+'.js,/qzone/v8/core/interface_mini.js,/qzone/v8/core/app_engine_ex.js"\/><\/script>');
+	}
+
+	if(PSY._useqzfl || PSY._useinterface){
+		document.write('<script type="text/javascript" src="'+ new_protocol + '//'+PSY._domains.imgcache+'/qzone/v8/applib/embeded.js"\/><\/script>');
+		
+		window.g_V = window.g_V || {};
+		window.g_V.qz = PSY._qzflVersion;
+		var g_version  = 6;
+		var g_isDirectApp = 0;
+		var _s_ = new Date();
+		var g_NowTime = _s_.getTime()/1000;
+		var g_V = window.g_V;
+	}
+	
+</script>
+<script type="text/javascript">
+seajs.config({
+	base: 'https://' + PSY._domains.imgcache +'/',
+	charset:'utf-8',
+	timeout:5*60*1000,
+	debug:0,
+	alias:{		
+		'jquery' : new_protocol + '//' + PSY._domains.imgcache +'/qzone/photo/v7/js/lib/jquery.js',
+		'migrate-plugin': new_protocol + '//' + PSY._domains.imgcache + '/qzone/v8/engine/migrate-plugin.js',
+		'interface':'v8/core/interface_mini.js',
+		'console-plus': 'v8/engine/console-plus/console-plus.js',
+		'request': 'v8/engine/request/request_'+PSY._requestVersion+'.js',
+		'jsbridge' : new_protocol + '//qzonestyle.gtimg.cn/qzone/phone/m/v4/widget/mobile/jsbridge.js?_bid=339',
+		'app_engine': 'v8/core/app_engine_ex.js'
+	},
+	paths:{
+		'photo.v7' : new_protocol + '//' + PSY._domains.imgcache +'/qzone/photo/v7/js',
+		'hybridPath' : new_protocol + '//' + PSY._domains.imgcache +'/qzone/hybrid',
+		'cssBase' : new_protocol + '//' + PSY._domains.imgcache,
+		'v8': new_protocol + '//' + PSY._domains.imgcache + '/qzone/v8',
+		'mall.v8':new_protocol + '//' + PSY._domains.imgcache + '/qzone/mall/v8',
+		'app' : new_protocol + '//' + PSY._domains.imgcache +'/qzone/app'
+	},
+	map:[
+		[/^.+\/lib\/qzfl\.js$/i,new_protocol + '//' + PSY._domains.imgcache +'/ac/qzone/qzfl/qzfl'+(PSY._qzflVersion)+'.js'],
+		[/^.+\/jquery\.js$/,new_protocol + '//' + PSY._domains.imgcache + '/ac/lib/jquery/jquery-'+PSY._jQueryVersion+'.js'],
+		//[/^.+\/tcisd.js/$/,'http://' + PSY._domains.imgcache + '/qzone/v8/core/stat.js'],
+		[/^(.+\/qzone\/photo\/v7\/js\/.+\.js)$/i,'$1?ver=' + PSY._photoVersionV7],
+		[/^(.+\/qzone_v6\/[^\/]+\.css)$/i,'$1?max_age=2592000&ver=' + PSY._photoVersionMap.css]
+	],
+	comboSyntax:['c/=',','],
+	comboIncludes:/\/qzone\/v8/,
+	comboExcludes:/jquery|app_engine/,
+	preload:PSY._useinterface?['migrate-plugin','interface', 'console-plus', 'request','app_engine'] : null
+});
+</script>
+<script type="text/javascript">
+	if(PSY._useinterface){
+		seajs.use(['migrate-plugin','interface', 'console-plus', 'request','app_engine']);//强制编译一下里面的内容,达到同步的效果
+	}
+</script>
+<script type="text/javascript">
+	if((location.search + location.hash || '').indexOf('useqphoto')!==-1){
+		PSY._useqphoto = 1;
+		document.write('<script type="text/javascript" src="'+ new_protocol + '//'+PSY._domains.imgcache+'/qzone/photo/zone/script/AlbumGet.js?max_age=2592000&v='+PSY._photoVersion+'"\/><\/script>');
+	}
+</script>
+<script type="text/javascript">
+if(PSY._useinterface === 1){
+	define('tcisd',[],function(require,module,exports){
+		return window.TCISD;
+	});
+}
+</script>
+<script type="text/javascript">
+PSY.loadTimes.moduleStartLoad = +new Date();
+if(!PSY._useqzfl){
+	window.QZONE = window.QZFL||parent.QZONE;
+}
+(function(){
+	if(location.href.indexOf('g_iframeUser=1') > -1) {
+		QZONE.FP = top.QZONE.FP;
+	}
+	if(window.parent==window && /qzs\.qq\.com$/ig.test(location.host)){//如果不是在iframe里边使用，统一都跳到h5.qzone.qq.com上去
+		location.href = '//h5.qzone.qq.com/page/photo' + location.search + location.hash;
+		return;
+	}
+
+	var search = {};
+	(location.search + location.hash || '').replace(/([^?=&#]+)=([^?&#]*)/gi,function($0,k,v){
+		search[k] = decodeURIComponent(v || '');	//统一强制decode
+	});
+
+	if(/^[a-z0-9\.\/\-_]+$/i.test(search.init || '')){
+		search.init = search.init.replace(/\/+/g,'/');		//xss bug
+		search.init = search.init.replace(/\.+/g,'.');		//xss bug
+
+		var requireModule = ['photo.v7/lib/photo',search.init];
+		var needNav;
+		if(parseInt(search.navBar) < 0){
+			//强制不要导航栏
+			needNav = false;
+		}else{
+			needNav = (search.navBar && frameElement && frameElement.g_isAlbumListV8) || (window.top !== window.self && parent.QZONE && frameElement.g_isAlbumListV8) || (search.navBar && !frameElement);
+		}
+		if(needNav){
+			requireModule.push('photo.v7/module/navBar/index');
+		}
+		requireModule.push('v8/ic/speed');
+		seajs.use(requireModule,function(photo,index,navBar,speed){
+			var mod = index;
+			if(mod && !mod.init && mod.get){
+				mod = mod.get('./init');
+			}
+
+			if(search.timeStamp){
+				search.timeStamp = new Date(search.timeStamp);
+			}
+
+			//相册V8导航栏
+			if(needNav){
+				PSY.loadTimes.navBarStartInit = +new Date();
+				navBar && navBar.init && navBar.init({
+					div:document.getElementById('j-body'),
+					params: search
+				}).done(function(div){
+					PSY.loadTimes.moduleStartInit = +new Date();
+					mod && mod.init && mod.init({
+						div: div,
+						params: search
+					});
+				});
+
+				speedReport(speed);
+				return;
+			};
+
+			PSY.loadTimes.moduleStartInit = +new Date();
+			mod && mod.init && mod.init({
+				div: document.getElementById('j-body'),
+				params: search
+			});
+
+			speedReport(speed);
+			function speedReport(speed) {
+				if (speed && speed.report) {
+					speed.report({
+						points: {
+			                siteName: top.location.host,
+			                pageName: "4/detail",
+			                24: (new Date()).getTime() - top.window.g_point0_4
+			            },
+			            appid: "20141",
+			            appkey: "c373ba4a1ce77b27601e887e9f8eb3f4"
+					});
+				}
+			}
+		});
+		
+		if(search.init.indexOf('/viewer2/index') > -1){
+			document.body.style.backgroundColor = "#000";
+			QZFL.css.insertCSSLink('http://' + PSY._domains.imgcache + '/aoi/photo-scan-layer.css');
+			QZFL.css.insertCSSLink('http://' + PSY._domains.imgcache + '/aoi/ui-dialog.css');
+		}
+		
+	};
+
+	//客户端页面环境补全
+	if(top.QZONE && top.QZONE.FP){
+		top.QZONE.FP._t.g_V = top.QZONE.FP._t.g_V || {};
+		top.QZONE.FP._t.g_V.qz = PSY._qzflVersion;
+		if(!window.g_iLoginUin || window.g_iLoginUin <= 0){
+			window.g_iLoginUin = top.QZONE.FP.getQzoneConfig&&top.QZONE.FP.getQzoneConfig("loginUin");
+		}
+		if(!window.g_iUin || window.g_iUin <= 0){
+			window.g_iUin = top.QZONE.FP.getQzoneConfig&&top.QZONE.FP.getQzoneConfig("ownerUin");
+			window.g_iUin = window.g_iUin > 0 ? window.g_iUin : search.ownerUin;
+		}
+	}
+
+	// if(window.g_iLoginUin && [0, 2, 4, 6, 8].indexOf(g_iLoginUin % 10) > -1){
+		var jbody = document.getElementById('j-body');
+
+		//连H5特性都不支持的就不要切H5上传了
+		if(jbody && jbody.classList && jbody.classList.add && window.FileReader){
+			jbody.classList.add('j-switch-to-h5-upload');
+		}
+	// }
+})();
+</script>
+<!--[if IE 6]>
+<script type="text/javascript">
+// <![CDATA[
+try{document.execCommand("BackgroundImageCache",false,true);}catch(e){}
+// ]]>
+</script>
+<![endif]-->
+<script type="text/javascript">PSY.loadTimes.domReady = +new Date();</script>
+<input type="hidden"></body></html>
